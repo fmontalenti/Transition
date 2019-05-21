@@ -1,0 +1,37 @@
+body{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+div{
+    margin-top:50px;
+    width:150px;
+    height:150px;
+    background-color:pink;
+    transition: all 3s;
+}
+
+#caja-2:hover{
+    background-color:lightblue;
+}
+
+#caja-3:hover{
+    transform:scale(0.5);
+}
+#caja-4:hover{
+    box-shadow:15px 15px 0px 0px lightblue;
+}
+#caja-5:hover{
+    border-radius:50%;
+}
+#caja-6:hover{
+    transform:rotate(90deg);
+}
+#caja-7:hover{
+    transform:skewX(10deg);
+    /* igual con skewY - skew (agarra X - Y) */
+}
+#caja-8:hover{
+    transform:translateY(30px);
+    /* igual con translateX - translate (agarra X - Y) */
+}
